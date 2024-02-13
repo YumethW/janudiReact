@@ -7,6 +7,8 @@ import img3 from "./SearchImages/searchImg3.jpg";
 import img4 from "./SearchImages/searchImg4.jpg";
 import img5 from "./SearchImages/searchImg5.jpg";
 import img6 from "./SearchImages/searchImg6.jpg";
+import imgSearch from "./SearchImages/search.svg";
+
 
 const serachData = [
   {
@@ -68,7 +70,7 @@ const Search = () => {
           placeholder="Search Anything..."
           className="search"
         />
-        <img src="/search.svg" alt="" />
+        <img src={imgSearch} alt="" />
       </div>
 
       <div className="searchResults">
