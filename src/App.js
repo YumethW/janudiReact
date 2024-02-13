@@ -9,8 +9,6 @@ function App() {
       <GalleryPage/>
       <Search />
       <SearchPage/> */}
-
-      helloo world
     </div>
   );
 }
